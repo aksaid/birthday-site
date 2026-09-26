@@ -118,8 +118,7 @@ You make ordinary days feel like something worth remembering. I'm proud of you, 
 
 Until then — this page, and my whole heart, are yours.
 
-I love you.
-— Ak Said`;
+I love you.`;
 
 /* ---------- Love letter typing ---------- */
 const letterEl = document.getElementById('letter');
