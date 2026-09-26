@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Ruuney 💕</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Floating hearts background -->
+  <div id="hearts"></div>
+
+  <!-- Music toggle -->
+  <button id="musicBtn" title="Play music" aria-label="Toggle music">🎵</button>
+  <audio id="bgMusic" loop preload="auto" src="music.mp3"></audio>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1 class="animated-name">Happy Birthday,<br /><span>Ruuney</span></h1>
+    <p class="subtitle">From Ak Said, with all my love 💌</p>
+    <div class="scroll-hint">scroll ↓</div>
+  </section>
+
+  <!-- Slideshow -->
+  <section class="slideshow-section">
+    <h2>My Memories</h2>
+    <div class="slideshow">
+      <img class="slide active" src="photos/1.jpg" alt="memory 1" />
+      <img class="slide" src="photos/2.jpg" alt="memory 2" />
+      <img class="slide" src="photos/3.jpg" alt="memory 3" />
+      <!-- add more -->
+    </div>
+  </section>
+
+  <!-- Love letter -->
+  <section class="letter-section">
+    <h2>A Letter For You</h2>
+    <p id="letter" class="letter"></p>
+  </section>
+
+  <!-- Reasons -->
+  <section class="reasons-section">
+    <h2>Reasons I Love You</h2>
+    <div class="reason-box" id="reasonBox">Tap to reveal 💗</div>
+    <button id="nextReason">Another one →</button>
+  </section>
+
+  <!-- Countdown -->
+  <section class="countdown-section">
+    <h2>Until I See You Again</h2>
+    <div id="countdown" class="countdown">--</div>
+  </section>
+
+  <footer>
+    Made with ❤️ and too many late nights by Ak Said
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
