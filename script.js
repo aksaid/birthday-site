@@ -150,13 +150,25 @@ const reasons = [
   "Your laugh is my favorite sound.",
   "You make me want to be better.",
   "The way you talk about your dreams.",
-  "How you always know what to say.",
-  "Your kindness, even on hard days.",
+  "How u always know what to say to me.",
+  "Your kindness even on hard days.",
+"The way your eyes light up when you're excited.",
+  "Your patience, even when I don't deserve it.",
+  "The way you say 'good morning' like it matters.",
+  "How you turn any boring moment into a memory.",
+  "Your heart — it's the softest, bravest one I know.",
+  "How you forgive me when I mess up.",
+  "How you make me feel chosen every day.",
+  "The way you smell — it stays with me all day.",
+  "The way you believe in us.",
+  "How u always understand me.",
   "The way you say my name.",
   "You make distance feel small.",
-  "Your sleepy voice on late calls.",
+  "Your gorgeous smile.",
   "How you care about the little things.",
   "You're my favorite person to do nothing with.",
+  "And mostly… just because you're you."
+
   // add 20+ more
 ];
 let reasonIndex = -1;
